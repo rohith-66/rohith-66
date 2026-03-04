@@ -2,9 +2,9 @@
 
 ### Data Analyst | Operations & Performance Analytics
 
-I design analytics systems that turn operational data into financial clarity.
+I design analytics systems that translate operational performance into measurable financial insight.
 
-SQL-driven modeling, portfolio performance tracking, and executive-ready BI dashboards that support decision-making at scale.
+Specialized in SQL-driven modeling, portfolio cost forecasting, and executive-ready BI reporting.
 
 ---
 
@@ -26,10 +26,10 @@ Identified cost overruns, flagged high-risk projects, and modeled financial bene
 
 ---
 
-## Additional Work
+## Additional Analytics Work
 
-- Injury Impact & Performance Analytics (Python + BI Dashboard)
-- KPI Monitoring & Executive Reporting Systems
+- European Football Injury Impact Analysis — multi-season risk trend modeling with interactive BI reporting  
+- KPI Monitoring & Executive Reporting Systems — structured performance dashboards for operational tracking
 
 ---
 
