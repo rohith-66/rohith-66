@@ -7,6 +7,8 @@ I design analytics systems and data pipelines that translate operational perform
 
 My work bridges analytics, data modeling, and cloud-based engineering — building production-style pipelines that move from raw data to executive-ready reporting.
 
+Website : https://rohithsrinivasa.com/
+
 ---
 
 # Flagship Engineering Project
