@@ -1,4 +1,4 @@
-# Hi, I'm Rohith (Ro) 👋
+# Hi, I'm Rohith
 
 **MS Data Science @ Arizona State University** · Graduating May 2026 · Open to Data Engineer & Data Analyst roles (F1 OPT)
 
@@ -7,7 +7,7 @@ My work spans cloud-native pipelines, AI-powered tooling, and warehouse-backed B
 
 ---
 
-## 🚀 Flagship Projects
+## Flagship Projects
 
 ### DataFlow Studio — AI-Powered Data Engineering Pipeline
 > *React · FastAPI · Claude AI · PySpark · Python · Deployed on Vercel + Render*
@@ -53,7 +53,7 @@ End-to-end performance analytics framework simulating a real-world project contr
 
 ---
 
-## 🛠 Core Stack
+## Core Stack
 
 | Layer | Technologies |
 |-------|-------------|
@@ -67,7 +67,7 @@ End-to-end performance analytics framework simulating a real-world project contr
 
 ---
 
-## 💼 Background
+## Background
 
 - 2 years as **IoT & Data Analyst at Software AG**, Bangalore
 - Built production analytics systems processing millions of IoT events
@@ -76,11 +76,13 @@ End-to-end performance analytics framework simulating a real-world project contr
 
 ---
 
-## 📫 Connect
+## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohithsrinivasa/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-rohithsrinivasa.com-black?style=flat)](https://rohithsrinivasa.com)
-[![Email](https://img.shields.io/badge/Email-rohithsrinivasa1@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rohithsrinivasa1@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rohith%20Srinivasa-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohithsrinivasa/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-rohithsrinivasa.com-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://rohithsrinivasa.com)
+[![Email](https://img.shields.io/badge/Gmail-rohithsrinivasa1-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rohithsrinivasa1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-rohith--66-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rohith-66)
+
 
 ---
 
