@@ -1,111 +1,87 @@
-# Rohith Srinivasa
+# Hi, I'm Rohith (Ro) 👋
 
-Data Analytics & Lakehouse Engineering  
-SQL · Spark · BigQuery · Financial Performance Modeling  
+**MS Data Science @ Arizona State University** · Graduating May 2026 · Open to Data Engineer & Data Analyst roles (F1 OPT)
 
-I design analytics systems and data pipelines that translate operational performance into measurable financial insight.
-
-My work bridges analytics, data modeling, and cloud-based engineering — building production-style pipelines that move from raw data to executive-ready reporting.
-
-Website : https://rohithsrinivasa.com/
+I build data systems that move from raw, messy data to production-ready insights — end to end.
+My work spans cloud-native pipelines, AI-powered tooling, and warehouse-backed BI.
 
 ---
 
-# Flagship Engineering Project
+## 🚀 Flagship Projects
 
-## End-to-End Lakehouse Pipeline (GCP + Spark + BigQuery)
+### DataFlow Studio — AI-Powered Data Engineering Pipeline
+> *React · FastAPI · Claude AI · PySpark · Python · Deployed on Vercel + Render*
 
-Apache Spark · Docker · Google Cloud Storage · BigQuery · Parquet  
+An interactive end-to-end pipeline app. Upload any CSV and watch it flow through a full **Bronze → Silver → Gold** medallion architecture powered by Claude AI.
 
-Built a production-style Bronze → Silver → Gold lakehouse architecture processing 80,000+ records per run across structured and semi-structured datasets.
+- **Bronze** — Schema detection, null analysis, data quality profiling
+- **Silver** — AI-generated PySpark & SQL transformations with real code output
+- **Gold** — Auto-generated KPIs, charts, business insights, and analytics dashboard
+- **Export** — Cleaned CSV, production PySpark `.py` file, pipeline report
 
-Architecture:
-
-Raw JSON (GCS Bronze)
-→ Spark Transformations (Dockerized)
-→ Clean Parquet (Silver)
-→ Aggregated Metrics (Gold)
-→ Partitioned & Clustered BigQuery Warehouse
-
-Key Engineering Highlights:
-
-• Parameterized daily batch pipeline (single-command execution)  
-• Schema enforcement & nested JSON flattening  
-• Deduplication & timestamp normalization  
-• Parquet optimization for analytical workloads  
-• Partitioned + clustered BigQuery modeling  
-• Warehouse validation via SQL  
-
-Business Metrics Engineered:
-
-• Product-level views, orders, revenue  
-• Average rating & review counts  
-• Executive-ready aggregated KPIs  
-
-This project simulates a real-world production analytics platform with warehouse-ready modeling.
-
-GitHub Repo: (link to lakehouse repo)
+🔗 **[Live Demo](https://dataflow-studio-seven.vercel.app)** · **[GitHub Repo](https://github.com/rohith-66/dataflow-studio)**
 
 ---
 
-# Flagship Analytics System
+### Lakehouse Pipeline — GCP + Spark + BigQuery
+> *Apache Spark · Docker · Google Cloud Storage · BigQuery · Parquet*
 
-## Construction Portfolio Performance & Cost Forecasting System
+Production-style Bronze → Silver → Gold lakehouse architecture processing 80,000+ records per run.
 
-PostgreSQL + Power BI | 75,000+ Work Items  
+```
+Raw JSON (GCS Bronze) → Spark Transforms (Dockerized) → Parquet (Silver) → BigQuery Warehouse (Gold)
+```
+
+- Parameterized daily batch pipeline — single command execution
+- Schema enforcement, nested JSON flattening, deduplication
+- Partitioned + clustered BigQuery modeling
+- Warehouse validation via SQL
+
+🔗 **[GitHub Repo](https://github.com/rohith-66/lakehouse)**
+
+---
+
+### Construction Portfolio — Cost Forecasting System
+> *PostgreSQL · Power BI · 75,000+ Work Items*
 
 End-to-end performance analytics framework simulating a real-world project controls environment.
 
-• Planned vs Actual Cost Tracking (SQL Window Functions)  
-• CPI & EAC Forecasting  
-• Portfolio Risk Classification (RAG Framework)  
-• What-if Financial Impact Simulation  
-
-Impact:
-
-Identified cost overruns, flagged high-risk projects, and modeled financial benefits of operational improvements.
+- Planned vs Actual Cost Tracking (SQL Window Functions)
+- CPI & EAC Forecasting, Portfolio Risk Classification (RAG Framework)
+- What-if Financial Impact Simulation
+- Identified cost overruns, flagged high-risk projects
 
 ---
 
-# Additional Analytics Work
+## 🛠 Core Stack
 
-European Football Injury Impact Analysis  
-Multi-season risk trend modeling with interactive BI reporting  
-
-KPI Monitoring & Executive Reporting Systems  
-Structured executive dashboards for operational tracking  
-
----
-
-# Core Stack
-
-Data Engineering:
-Spark · PySpark · Docker · Google Cloud Storage · BigQuery · Parquet  
-
-Analytics:
-SQL · PostgreSQL · Python · Statistical Analysis  
-
-BI:
-Power BI (DAX, What-If Modeling) · Tableau  
-
-Tools:
-Excel · Git · Jupyter  
+| Layer | Technologies |
+|-------|-------------|
+| **Data Engineering** | PySpark · Apache Spark · Docker · GCP · BigQuery · GCS · Parquet |
+| **Languages** | Python · SQL · PostgreSQL |
+| **AI/ML** | Claude API · Scikit-learn · PyTorch |
+| **BI & Visualization** | Power BI (DAX, What-If) · Tableau · Recharts |
+| **Backend** | FastAPI · REST APIs |
+| **Frontend** | React · Tailwind CSS |
+| **Tools** | Git · Jupyter · Excel |
 
 ---
 
-# Professional Focus
+## 💼 Background
 
-• Financial & operational analytics  
-• Warehouse-backed BI systems  
-• Performance & cost forecasting  
-• Cloud-native data architecture  
-• Executive-ready data modeling  
+- 2 years as **IoT & Data Analyst at Software AG**, Bangalore
+- Built production analytics systems processing millions of IoT events
+- MS Data Science @ ASU — graduating May 2026
+- Available on **F1 OPT from June 2026** (STEM OPT eligible)
 
 ---
 
-# Connect
+## 📫 Connect
 
-LinkedIn: https://www.linkedin.com/in/rohithsrinivasa/  
-Email: rohithsrinivasa1@gmail.com  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohithsrinivasa/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-rohithsrinivasa.com-black?style=flat)](https://rohithsrinivasa.com)
+[![Email](https://img.shields.io/badge/Email-rohithsrinivasa1@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rohithsrinivasa1@gmail.com)
 
-Analytics should reduce uncertainty — not increase complexity.
+---
+
+*Analytics should reduce uncertainty — not increase complexity.*
