@@ -2,21 +2,39 @@
 
 **MS Data Science @ Arizona State University** · Graduating May 2026 · Open to Data Engineer & Data Analyst roles (F1 OPT)
 
-I build data systems that move from raw, messy data to production-ready insights — end to end.
-My work spans cloud-native pipelines, AI-powered tooling, and warehouse-backed BI.
+I build data systems end to end — from raw, messy inputs to production-ready insights. My work spans cloud-native pipelines, ML forecasting, and AI-powered tooling.
 
 ---
 
 ## Flagship Projects
 
-### DataFlow Studio — AI-Powered Data Engineering Pipeline
-> *React · FastAPI · Claude AI · PySpark · Python · Deployed on Vercel + Render*
+### ComorbidAlert — US County Comorbidity Forecasting System
+> *Python · Prophet · LightGBM · SHAP · AWS S3 · Streamlit · Plotly*
 
-An interactive end-to-end pipeline app. Upload any CSV and watch it flow through a full **Bronze → Silver → Gold** medallion architecture powered by Claude AI.
+End-to-end ML pipeline forecasting diabetes-cardiac comorbidity risk across all 3,144 US counties — built to catch counties on worsening trajectories 2–3 years before they cross critical thresholds.
+
+```
+CDC PLACES + Census ACS + BRFSS → 3-Layer Comorbidity Index → Weighted Ensemble Forecast → Early Warning Alerts
+```
+
+- **3-layer scoring model** — L1 clinical burden · L2 social vulnerability · L3 trajectory
+- **Weighted ensemble** (Prophet + LightGBM) — WAPE 0.46%, outperforms both individual models
+- **830 early warning alerts** — Critical / Warning / Watch tiers with plain-English reasons
+- **Novel finding** — Great Plains emerging cluster (NE/IA/SD) not documented in prior literature
+- **Live Streamlit dashboard** — choropleth map, county drill-down, alert table, key insights
+
+🔗 **[Live Dashboard](https://comorbid-alert.streamlit.app)** · **[GitHub Repo](https://github.com/rohith-66/comorbid-alert)**
+
+---
+
+### DataFlow Studio — AI-Powered Data Engineering Pipeline
+> *React · FastAPI · Claude AI · PySpark · Python · Vercel + Render*
+
+Upload any CSV and watch it flow through a full Bronze → Silver → Gold medallion architecture powered by Claude AI.
 
 - **Bronze** — Schema detection, null analysis, data quality profiling
 - **Silver** — AI-generated PySpark & SQL transformations with real code output
-- **Gold** — Auto-generated KPIs, charts, business insights, and analytics dashboard
+- **Gold** — Auto-generated KPIs, charts, and business insights dashboard
 - **Export** — Cleaned CSV, production PySpark `.py` file, pipeline report
 
 🔗 **[Live Demo](https://dataflow-studio-seven.vercel.app)** · **[GitHub Repo](https://github.com/rohith-66/dataflow-studio)**
@@ -26,7 +44,7 @@ An interactive end-to-end pipeline app. Upload any CSV and watch it flow through
 ### Lakehouse Pipeline — GCP + Spark + BigQuery
 > *Apache Spark · Docker · Google Cloud Storage · BigQuery · Parquet*
 
-Production-style Bronze → Silver → Gold lakehouse architecture processing 80,000+ records per run.
+Production-style lakehouse architecture processing 80,000+ records per run.
 
 ```
 Raw JSON (GCS Bronze) → Spark Transforms (Dockerized) → Parquet (Silver) → BigQuery Warehouse (Gold)
@@ -35,7 +53,6 @@ Raw JSON (GCS Bronze) → Spark Transforms (Dockerized) → Parquet (Silver) →
 - Parameterized daily batch pipeline — single command execution
 - Schema enforcement, nested JSON flattening, deduplication
 - Partitioned + clustered BigQuery modeling
-- Warehouse validation via SQL
 
 🔗 **[GitHub Repo](https://github.com/rohith-66/lakehouse)**
 
@@ -46,9 +63,9 @@ Raw JSON (GCS Bronze) → Spark Transforms (Dockerized) → Parquet (Silver) →
 
 End-to-end performance analytics framework simulating a real-world project controls environment.
 
-- Planned vs Actual Cost Tracking (SQL Window Functions)
-- CPI & EAC Forecasting, Portfolio Risk Classification (RAG Framework)
-- What-if Financial Impact Simulation
+- Planned vs Actual Cost Tracking with SQL window functions
+- CPI & EAC forecasting, portfolio risk classification (RAG framework)
+- What-if financial impact simulation
 - Identified cost overruns, flagged high-risk projects
 
 ---
@@ -57,24 +74,17 @@ End-to-end performance analytics framework simulating a real-world project contr
 
 | Layer | Technologies |
 |-------|-------------|
-| **Data Engineering** | PySpark · Apache Spark · Docker · GCP · BigQuery · GCS · Parquet |
+| **Data Engineering** | PySpark · Apache Spark · Docker · GCP · BigQuery · AWS S3 · Parquet |
+| **ML & Forecasting** | Prophet · LightGBM · Scikit-learn · SHAP · PyTorch |
 | **Languages** | Python · SQL · PostgreSQL |
-| **AI/ML** | Claude API · Scikit-learn · PyTorch |
-| **BI & Visualization** | Power BI (DAX, What-If) · Tableau · Recharts |
+| **AI Tooling** | Claude API |
+| **BI & Visualization** | Streamlit · Plotly · Power BI · Tableau |
 | **Backend** | FastAPI · REST APIs |
 | **Frontend** | React · Tailwind CSS |
-| **Tools** | Git · Jupyter · Excel |
+| **Tools** | Git · Docker · Jupyter |
 
 ---
 
-## Background
-
-- 2 years as **IoT & Data Analyst at Software AG**, Bangalore
-- Built production analytics systems processing millions of IoT events
-- MS Data Science @ ASU — graduating May 2026
-- Available on **F1 OPT from June 2026** (STEM OPT eligible)
-
----
 
 ## Connect
 
@@ -83,7 +93,6 @@ End-to-end performance analytics framework simulating a real-world project contr
 [![Email](https://img.shields.io/badge/Gmail-rohithsrinivasa1-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rohithsrinivasa1@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-rohith--66-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rohith-66)
 
-
 ---
 
-*Analytics should reduce uncertainty — not increase complexity.*
+*Build systems that reduce uncertainty — not increase complexity.*
