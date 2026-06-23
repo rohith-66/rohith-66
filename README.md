@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Replace YOUR_COLOR with e.g. 0d1117 for dark, or try: https://capsule-render.vercel.app -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=200&section=header&text=Rohith%20Srinivasa&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Data%20Engineer%20%7C%20ML%20Builder%20%7C%20ASU%20%2726&descSize=18&descAlignY=72)
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=200&section=header&text=Rohith%20Srinivasa&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Data%20Engineer%20%7C%20Data%20Analyst%20%7C%20ASU%20%2726&descSize=18&descAlignY=72)
 
 </div>
 
