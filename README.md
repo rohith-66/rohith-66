@@ -1,98 +1,81 @@
-# Hi, I'm Rohith
+<div align="center">
 
-**MS Data Science @ Arizona State University** · Graduating May 2026 · Open to Data Engineer & Data Analyst roles (F1 OPT)
+<!-- Replace YOUR_COLOR with e.g. 0d1117 for dark, or try: https://capsule-render.vercel.app -->
+![header](https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=200&section=header&text=Rohith%20Srinivasa&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Data%20Engineer%20%7C%20ML%20Builder%20%7C%20ASU%20%2726&descSize=18&descAlignY=72)
 
-I build data systems end to end — from raw, messy inputs to production-ready insights. My work spans cloud-native pipelines, ML forecasting, and AI-powered tooling.
-
----
-
-## Flagship Projects
-
-### ComorbidAlert — US County Comorbidity Forecasting System
-> *Python · Prophet · LightGBM · SHAP · AWS S3 · Streamlit · Plotly*
-
-End-to-end ML pipeline forecasting diabetes-cardiac comorbidity risk across all 3,144 US counties — built to catch counties on worsening trajectories 2–3 years before they cross critical thresholds.
-
-```
-CDC PLACES + Census ACS + BRFSS → 3-Layer Comorbidity Index → Weighted Ensemble Forecast → Early Warning Alerts
-```
-
-- **3-layer scoring model** — L1 clinical burden · L2 social vulnerability · L3 trajectory
-- **Weighted ensemble** (Prophet + LightGBM) — WAPE 0.46%, outperforms both individual models
-- **830 early warning alerts** — Critical / Warning / Watch tiers with plain-English reasons
-- **Novel finding** — Great Plains emerging cluster (NE/IA/SD) not documented in prior literature
-- **Live Streamlit dashboard** — choropleth map, county drill-down, alert table, key insights
-
-🔗 **[Live Dashboard](https://comorbid-alert.streamlit.app)** · **[GitHub Repo](https://github.com/rohith-66/comorbid-alert)**
+</div>
 
 ---
 
-### DataFlow Studio — AI-Powered Data Engineering Pipeline
-> *React · FastAPI · Claude AI · PySpark · Python · Vercel + Render*
+Hey, I'm Rohith. I'm finishing my MS in Data Science at Arizona State and I build things that turn messy, real-world data into something actually useful.
 
-Upload any CSV and watch it flow through a full Bronze → Silver → Gold medallion architecture powered by Claude AI.
+Not dashboards for the sake of dashboards. Systems that give someone a decision they couldn't make before.
 
-- **Bronze** — Schema detection, null analysis, data quality profiling
-- **Silver** — AI-generated PySpark & SQL transformations with real code output
-- **Gold** — Auto-generated KPIs, charts, and business insights dashboard
-- **Export** — Cleaned CSV, production PySpark `.py` file, pipeline report
+Right now I'm open to **Data Engineer** and **Data Analyst** roles on F1 OPT. Based in Tempe, AZ.
 
-🔗 **[Live Demo](https://dataflow-studio-seven.vercel.app)** · **[GitHub Repo](https://github.com/rohith-66/dataflow-studio)**
+---
+
+## what I've built
+
+### ComorbidAlert — county-level health forecasting across the US
+`Python` `Prophet` `LightGBM` `SHAP` `AWS S3` `Streamlit`
+
+Forecasts diabetes-cardiac comorbidity risk across all 3,144 US counties, flagging counties on a worsening trajectory 2-3 years before they hit critical thresholds. Built a 3-layer scoring model (clinical burden + social vulnerability + trajectory), ran a weighted ensemble that hit WAPE 0.46%, and surfaced 830 early warning alerts with plain-English explanations.
+
+Found a Great Plains emerging cluster (NE/IA/SD) that hadn't been documented in prior literature.
+
+→ [live dashboard](https://comorbid-alert.streamlit.app) · [repo](https://github.com/rohith-66/comorbid-alert)
+
+---
+
+### DataFlow Studio — upload a CSV, get a production pipeline
+`React` `FastAPI` `Claude API` `PySpark` `Vercel`
+
+Drop in any CSV and it runs through a full Bronze → Silver → Gold medallion architecture powered by Claude. It detects schema issues, generates real PySpark and SQL transformations, builds a KPI dashboard, and exports a production-ready `.py` file. Not a toy demo, actual code you can run.
+
+→ [live demo](https://dataflow-studio-seven.vercel.app) · [repo](https://github.com/rohith-66/dataflow-studio)
 
 ---
 
 ### Lakehouse Pipeline — GCP + Spark + BigQuery
-> *Apache Spark · Docker · Google Cloud Storage · BigQuery · Parquet*
+`Apache Spark` `Docker` `GCS` `BigQuery` `Parquet`
 
-Production-style lakehouse architecture processing 80,000+ records per run.
+Production-style lakehouse processing 80,000+ records per run. Raw JSON in GCS goes through Dockerized Spark transforms, lands as Parquet in Silver, and loads into a partitioned + clustered BigQuery warehouse. Single command execution, schema enforcement, deduplication built in.
+
+→ [repo](https://github.com/rohith-66/lakehouse)
+
+---
+
+### Construction Portfolio — cost forecasting on 75,000+ work items
+`PostgreSQL` `Power BI`
+
+End-to-end project controls simulation. Planned vs actual cost tracking with SQL window functions, CPI & EAC forecasting, RAG risk classification, and what-if financial impact modeling. Identified real cost overruns and flagged high-risk projects before they escalated.
+
+---
+
+## stack
 
 ```
-Raw JSON (GCS Bronze) → Spark Transforms (Dockerized) → Parquet (Silver) → BigQuery Warehouse (Gold)
+data engineering   PySpark · Spark · Docker · GCP · BigQuery · AWS S3 · Parquet
+ml & forecasting   Prophet · LightGBM · Scikit-learn · SHAP · PyTorch
+languages          Python · SQL · PostgreSQL
+ai tooling         Claude API
+viz & bi           Streamlit · Plotly · Power BI · Tableau
+backend            FastAPI · REST APIs
+frontend           React · Tailwind CSS
+tools              Git · Docker · Jupyter
 ```
 
-- Parameterized daily batch pipeline — single command execution
-- Schema enforcement, nested JSON flattening, deduplication
-- Partitioned + clustered BigQuery modeling
+---
 
-🔗 **[GitHub Repo](https://github.com/rohith-66/lakehouse)**
+## find me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rohith%20Srinivasa-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohithsrinivasa/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-rohithsrinivasa.com-6E40C9?style=flat-square&logo=vercel&logoColor=white)](https://rohithsrinivasa.com)
+[![Email](https://img.shields.io/badge/Gmail-rohithsrinivasa1-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rohithsrinivasa1@gmail.com)
 
 ---
 
-### Construction Portfolio — Cost Forecasting System
-> *PostgreSQL · Power BI · 75,000+ Work Items*
-
-End-to-end performance analytics framework simulating a real-world project controls environment.
-
-- Planned vs Actual Cost Tracking with SQL window functions
-- CPI & EAC forecasting, portfolio risk classification (RAG framework)
-- What-if financial impact simulation
-- Identified cost overruns, flagged high-risk projects
-
----
-
-## Core Stack
-
-| Layer | Technologies |
-|-------|-------------|
-| **Data Engineering** | PySpark · Apache Spark · Docker · GCP · BigQuery · AWS S3 · Parquet |
-| **ML & Forecasting** | Prophet · LightGBM · Scikit-learn · SHAP · PyTorch |
-| **Languages** | Python · SQL · PostgreSQL |
-| **AI Tooling** | Claude API |
-| **BI & Visualization** | Streamlit · Plotly · Power BI · Tableau |
-| **Backend** | FastAPI · REST APIs |
-| **Frontend** | React · Tailwind CSS |
-| **Tools** | Git · Docker · Jupyter |
-
----
-
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rohith%20Srinivasa-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohithsrinivasa/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-rohithsrinivasa.com-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://rohithsrinivasa.com)
-[![Email](https://img.shields.io/badge/Gmail-rohithsrinivasa1-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rohithsrinivasa1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-rohith--66-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rohith-66)
-
----
-
-*Build systems that reduce uncertainty — not increase complexity.*
+<div align="center">
+  <sub>build systems that reduce uncertainty, not increase complexity</sub>
+</div>
