@@ -53,6 +53,19 @@ End-to-end project controls simulation. Planned vs actual cost tracking with SQL
 
 ---
 
+## always exploring
+
+data engineering is moving fast and I'm moving with it. right now I'm digging into:
+
+- **real-time pipelines** — Kafka, Flink, streaming architectures (batch is great but streams are next)
+- **dbt** — proper data modeling, not just SQL dumps
+- **ML in production** — not just notebooks, actual model serving, monitoring, drift detection
+- **open source** — looking for projects where I can actually contribute something useful
+
+if you're building something interesting or know something I should learn, I'm genuinely all ears.
+
+---
+
 ## stack
 
 ```
